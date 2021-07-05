@@ -236,6 +236,19 @@ Klik ubah pada salah satu artikel dan inilah hasilnya
 Tambahkan fungsi/method baru pada `Controller Artikel` dengan nama `delete()`.
 ![21](https://user-images.githubusercontent.com/56380838/123079050-c356a700-d445-11eb-9265-5da6688f9ee2.png)
 
+# Praktikum 14: Pagination dan Pencarian
+## Langkah - langkah praktikum
+### Persiapan
+Hal pertama yang dilakukan adalah menjalankan Apache & MySQL server di XAMPP seperti berikut.
+![1](https://user-images.githubusercontent.com/56380838/124412267-4fd36480-dd78-11eb-87a0-ea406519a4ca.png)
+## Langkah 1
+### Membuat Pagination
+Pagination merupakan proses yang digunakan untuk membatasi tampilan yang panjang dari data yang banyak pada sebuah website. Fungsi pagination adalah memecah tampilan menjadi beberapa halaman tergantung banyaknya data yang akan ditampilkan pada setiap halaman. Untuk membuat pagination, buka Kembali Controller Artikel pada direktori (htdocs\Lab11_php_ci\ci4\Controllers\Artikel.php), kemudian modifikasi kode pada method admin_index seperti berikut.
+![2](https://user-images.githubusercontent.com/56380838/124412840-9b3a4280-dd79-11eb-9a51-bdd1f84e32d1.png)
+Kemudian buka file `views/artikel/admin_index.php` dan tambahkan kode berikut dibawah deklarasi tabel data.
+
+
+
 
 
 
